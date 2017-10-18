@@ -9,8 +9,8 @@ task wrapper(type: Wrapper){
 
 buildproperties.publishing {
     zip {
-        into('bin'){
-            from 'out/bin'
+        into('lib'){
+            from 'out/lib'
         }
     }
 }
